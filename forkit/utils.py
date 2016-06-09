@@ -1,5 +1,5 @@
 from django.db import models
-from django.db.models import related
+from django.db.models.fields import related
 
 class DeferredCommit(object):
     """Differentiates a non-direct related object that should be deferred

@@ -1,3 +1,15 @@
+2016-06-09 	Fixed broken import due to django version bump to 1.9
+
+2014-06-02  Dmitry Anoshin  <anoshindx@gmail.com>
+
+    Django versions support: 1.6 - 1.7
+
+    * FIX Forking bug: Deep forking was cut at second object with backward
+    relations.
+
+    * Change deprecated transaction.commit_on_success to transaction.atomic.
+
+
 2011-10-10  Byron Ruth  <ruthb@email.chop.edu>
 
 	* Arbitrary Signal Keyword Arguments. Each utility function can take any
